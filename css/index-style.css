@@ -1,0 +1,516 @@
+body
+{
+	font-family: changa;
+	padding-top:53px;
+}
+.line
+{
+    width:81px;
+    height:2px;
+    background-color:#bbb;/*#e71f30 good red*/
+    margin:auto;
+	margin-bottom:10px;
+}
+a:hover
+{
+	text-decoration: none;
+}
+/* Start Login-nav Style */
+
+.login-nav
+{
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+	z-index: 5000;
+	background: url(../images/patt4.jpg) repeat left top scroll;
+}
+.login-nav ul li
+{
+	list-style: none;
+	float: right;
+	color:#fff;
+	font-size: 18px;
+	padding-top:5px;
+}
+.login-nav ul li a
+{
+	color:#fff;
+	padding:10px 8px 10px 0;
+}
+.login-nav ul li a i
+{
+	padding:10px;
+}
+.clear
+{
+	clear:both;
+}
+/* End Login-nav Style */
+/* Start Nav-Bar Style */
+
+.nav-pattern /* Nav-Background */
+{
+    background: url(../images/pattern.png) repeat left top scroll;
+    padding:20px;
+	
+	border-radius: 0;
+	margin-bottom: 0;
+	border:none;
+    
+}
+
+.logo /* Logo Position and Size */
+{
+    width: 85px;
+    margin-top: -24px;
+}
+.navbar .container .collapse .navbar-right .join /* Join link */
+{
+	color:#fff;
+	font-size: 17px;
+	font-weight: 600;
+}
+
+
+/* End Nav-Bar Style */
+
+/* Start Slider Style */
+
+.carousel-control /* Controls */
+{
+    width: 8%;
+}
+/* Start Nav Image Responsive */
+
+.slide-content
+{
+	
+	height:100%;
+	width:100%;
+   
+}
+.carousel-inner>.item>img
+{
+    width:100%;
+    height:100%;
+    min-height: 100%;
+}
+.carousel-inner
+{
+    width:100%;
+    max-height:550px;
+    min-height: 120px;
+}
+
+/* End Nav Image Responsive */
+
+/* Start Slider Text */
+
+.carousel-caption
+{
+    position: absolute;
+    top:0px;
+    left:0px;
+    text-align:left;
+    width:100%;
+    
+}
+.carousel-caption .container
+{
+	padding-top:10%;
+}
+.carousel-caption .container h2
+{
+	font-size:40px;
+	font-weight:700;
+}
+.carousel-caption .container p
+{
+	padding-top:40px;
+	padding-bottom:20px;
+	font-size:20px;
+	line-height: 40px;
+	width:60%;
+}
+.carousel-caption .container .btn
+{
+	width:200px;
+	
+}
+
+/* Start Text Responsive */
+
+@media(max-width:970px)
+{
+	.carousel-caption .container
+	{
+		padding-top:5%;
+	}
+	.carousel-caption .container h2
+	{
+		font-size: 38px;
+	}
+	.carousel-caption .container p
+	{
+		padding-top:30px;
+		padding-bottom:20px;
+		font-size:18px;
+		line-height: 30px;
+		width:60%;
+	}
+}
+@media(max-width:900px)
+{
+	.carousel-caption .container
+	{
+		padding-left:5%;
+		padding-top:3%;
+	}
+	.carousel-caption .container h2
+	{
+		font-size: 32px;
+	}
+	.carousel-caption .container p
+	{
+		padding-top:20px;
+		padding-bottom:15px;
+		font-size:16px;
+		line-height: 20px;
+		width:60%;
+	}
+}
+@media(max-width:650px)
+{
+	.carousel-caption .container
+	{
+		padding-top:2%;
+	}
+	.carousel-caption .container h2
+	{
+		font-size: 20px;
+	}
+	.carousel-caption .container p
+	{
+		padding-top:10px;
+		padding-bottom:10px;
+		font-size:12px;
+		line-height: 20px;
+		width:60%;
+	}
+	.carousel-caption .container .btn-lg
+	{
+		padding: 8px 14px;
+    	font-size: 16px;
+	}
+	
+}
+@media(max-width:530px)
+{
+	.carousel-caption
+	{
+		padding-top:20px;
+	}
+	.carousel-caption .container
+	{
+		padding-top:0px;
+	}
+	.carousel-caption .container h2
+	{
+		font-size: 18px;
+	}
+	.carousel-caption .container p
+	{
+		padding-top:10px;
+		padding-bottom:10px;
+		font-size:12px;
+		line-height: 22px;
+		width:80%;
+	}
+	.carousel-caption .container .btn
+	{
+		padding: 6px 12px;
+    	font-size: 12px;
+		width:70px;
+		font-weight: 400;
+	}
+}
+@media(max-width:420px)
+{
+	.carousel-caption
+	{
+		padding-top:0px;
+	}
+	.carousel-caption .container
+	{
+		padding-top:0px;
+		padding-left:30px;
+	}
+	.carousel-caption .container h2
+	{
+		font-size: 14px;
+	}
+	.carousel-caption .container p
+	{
+		padding-top:0px;
+		padding-bottom:0px;
+		font-size:9px;
+		line-height: 18px;
+		width:90%;
+	}
+	.carousel-caption .container .btn
+	{
+		padding: 6px 12px;
+    	font-size: 12px;
+		width:70px;
+		font-weight: 400;
+	}
+	.carousel-indicators
+	{
+		margin-bottom:0;
+		bottom:5px;
+	}
+}
+
+/* End Text Responsive */
+
+/* End Slider Text */
+
+/* End Slider Style */
+
+/* Start About US, DashBoard(header) Style */
+
+.about-us .container .head,
+.dashboard-head .container .head
+{
+    text-align:center;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding-top: 30px;
+	margin-bottom: 30px;
+}
+.about-us .container .head h2,
+.dashboard-head .container .head h2
+{
+    margin-bottom: 10px;
+	font-size: 40px;
+}
+.about-us .container .text
+{
+	width:80%;
+	text-align:center;
+	margin:auto;
+	color: #555;
+    line-height: 29px;
+	font-size:17px;
+}
+.about-us .container .content
+{
+	margin-top:120px;
+}
+.about-us .container .content .parent
+{
+	text-align:center;
+	margin-bottom:60px;
+	transition: 1s all;
+}
+
+.about-us .container .content .parent i
+{
+	font-size: 70px;
+	margin-bottom:10px;
+	color:#09c;
+}
+.about-us .container .content .parent .first
+{
+	color:#009688;
+}
+.about-us .container .content .parent .sec
+{
+	color:#f44336;
+}
+.about-us .container .content .parent .third
+{
+	color:#4caf50;
+}
+.about-us .container .content .parent .fourth
+{
+	color:#09c;
+}
+.about-us .container .content .parent h3
+{
+	margin-bottom:20px;
+}
+.about-us .container .content .parent p
+{
+	margin-top:20px;
+	font-size:20px;
+	color: #555;
+}
+
+/* End About US Style */
+/* Start Parralex Style */
+.parralex
+{
+	margin-top:40px;
+	color: #fff;
+    background-color: #009cde;
+    background-image: radial-gradient(circle farthest-side at center bottom,#009cde,#003087 125%);
+}
+.parralex .content
+{
+	padding-top:100px;
+	padding-bottom:100px;
+	margin:auto;
+	text-align:center;
+}
+
+.parralex .content h2
+{
+	font-size:36px;
+}
+.parralex .content p
+{
+	padding-top: 10px;
+	font-size:18px;
+	line-height: 40px;
+}
+/* End Parralex Responsive */
+
+/* End Parralex Style */
+
+/* Start Client Style */
+.client .carousel .carousel-inner
+{
+	height:auto;
+}
+.client .head .head-cont
+{
+	text-align:center;
+	padding-top:80px;
+}
+.client ol li
+{
+	border-color:#9e9e9e;
+}
+.client ol li.active
+{
+	background-color: #31708f;
+    border-color: transparent;
+}
+.client p
+{
+	    color: #666666;
+		
+		
+}
+.client .container .head p
+{
+	font-size:14px;
+	padding-bottom: 10px;
+}
+.client .container .line
+{
+	height:1px;
+}
+.client .slid-cont
+{
+	text-align: center;
+	padding-bottom:80px;	
+}
+.client .container .photo
+{
+	width:92px;
+	margin:20px auto;
+}
+.client .item .container p
+{
+	padding:20px;
+}
+
+
+/* End Client Style */
+
+/* Start Footer Style */
+
+.footer 
+{
+	background-color: #111;
+	padding: 80px 0;
+}
+.footer .container .head 
+{
+}
+.footer .container .head h2
+{
+	color:#fff;
+}
+.footer .container .head .line
+{
+	margin-left:1px;
+	margin-right: 0;
+	margin-bottom:30px;
+	width:45px;
+}
+.footer .ways ul
+{
+	padding:0;
+	margin:0;
+}
+
+
+.footer .ways,
+.footer .ways li>a
+{
+	color:#aeaeae;
+}
+.footer .ways li
+{
+	padding:10px 0;
+	font-size:18px;
+	display:block;
+	list-style: none;
+}
+.footer .ways span>span
+{
+	padding:0 20px;
+}
+.footer .ways span.what
+{
+	font-weight: bold;
+	font-size:20px;
+}
+.footer table span.what span
+{
+	padding:0 15px 0 0;
+}
+
+.footer .container .ways li .gplus
+{
+	padding-left:5px;
+}
+@media(max-width:380px)
+{
+	.footer .ways span>span
+	{
+		padding:0 0px 0 10px;
+	}
+	.footer .ways li
+	{
+		font-size:16px;
+	}
+	.footer .ways li span.what
+	{
+		font-size:18px;
+	}
+	.footer .ways li span.mail
+	{
+		font-size:13.5px;
+		
+	}
+	
+}
+
+
+/* End Footer Style */

@@ -1,0 +1,115 @@
+body
+{
+	padding-top:0px;
+	background-color:#e9ebee;
+	
+
+}
+/* Start Login style */
+.login
+{
+	margin-top:80px;
+	margin-bottom:80px;
+	background-color:#fff;
+	border-radius:2px;
+	padding-bottom:30px;
+}
+.login .head
+{
+	margin-top:40px;
+}
+.login .head h2
+{
+	font-size:36px;
+}
+.login .head .line
+{
+	margin:0;
+}
+.login .form
+{
+	padding:30px 0 0;
+	margin:10px 0;
+}
+
+.login .form form input:not(.checkbox)
+{
+	border-radius:0px;
+	box-shadow:none;
+	width:90%;
+}
+.login .form form .check
+{
+	margin:10px 3px 20px 0;
+}
+.login .form form .checkbox
+{
+	display:inline-block;
+	margin-right:3px;
+}
+.login .form .select
+{
+	width:90%;
+}
+.login .form form .col-lg-4,
+.login .form form .col-md-4,
+.login .form form .col-sm-4,
+.login .form form .col-xs-4
+{
+	padding:0 10px 0 0;
+}
+.login .form form .select .last-one
+{
+	padding:0;
+}
+.login .form form select
+{
+	border-radius:0px;
+	box-shadow:none;
+}
+.login .form form>select
+{
+	width:90%;
+}
+
+.login .form form button
+{
+	display:block;
+	width:90%;
+	text-align:center;
+}
+.login .signup
+{
+	padding-top:30px;
+}
+.login .signup a
+{
+	
+	width:40%;
+
+}
+@media(max-width:386px)
+{
+	.login .col-xs-12
+	{
+		padding:0;
+	}
+	.login .col-xs-12 h2
+	{
+		font-size:23px;
+	}
+	.login .col-xs-12 h4
+	{
+		font-size:14px;
+	}
+}
+
+input:unvalid
+{
+	border-color:#E34234;
+}
+
+
+
+
+/* End Login style */
